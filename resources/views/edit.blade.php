@@ -34,14 +34,14 @@
 				<div class="col-sm-10">
 					<input type="file" name="student_image" />
 					<br />
-					<img src="{{ asset('/public/images/' . $student->student_image) }}" width="100" class="img-thumbnail" />
+					<img src="{{ asset('images/' . $student->student_image) }}" width="100" class="img-thumbnail" />
 					<input type="hidden" name="hidden_student_image" value="{{ $student->student_image }}" />
 				</div>
 			</div>
 			<div class="text-center">
 				<input type="hidden" name="hidden_id" value="{{ $student->id }}" />
 				<input type="submit" class="btn btn-primary" value="Edit" />
-			</div>	
+			</div>
 		</form>
     </div>
 </div>

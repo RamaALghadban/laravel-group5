@@ -18,4 +18,5 @@ use App\Http\Controllers\StudentController;
 
 
 
+Route::resource('/',StudentController::class);
 Route::resource('students',StudentController::class);

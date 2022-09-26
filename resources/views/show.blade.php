@@ -33,7 +33,7 @@
 	<div class="row mb-4">
         <label class="col-sm-2 col-label-form"><b>Student Image</b></label>
 	<div class="col-sm-10">
-			<img src="{{ asset('/public/images/' .  $student->student_image) }}" width="200" class="img-thumbnail" />
+			<img src="{{ asset('images/' .  $student->student_image) }}" width="200" class="img-thumbnail" />
 	</div>
 	</div>
 </div>

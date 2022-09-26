@@ -21,13 +21,13 @@
                 <th>Action</th>
             </tr>
             @if(count($data) > 0)
-             
+
              @foreach($data as $row )
 
 
              <tr>
-                <td><img src="{{ asset('/public/images/' . $row->student_image) }}" width="75" /></td>
-                <td>{{ $row->student_nmae}}</td>
+                <td><img src="{{ asset('images/' . $row->student_image) }}" width="75"  /></td>
+                <td>{{ $row->student_name}}</td>
                 <td>{{ $row->student_email}}</td>
                 <td>{{ $row->student_gender}}</td>
                 <td>
